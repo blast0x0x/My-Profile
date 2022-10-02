@@ -41,7 +41,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "RussellOmar", { responsive: true });
+    new GitHubCalendar("#github-graph", "Russell", { responsive: true });
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
