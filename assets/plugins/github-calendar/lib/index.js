@@ -73,7 +73,7 @@ module.exports = function GitHubCalendar (container, username, options) {
     container = $(container)
 
     options = options || {}
-    options.summary_text = options.summary_text || `Summary of pull requests, issues opened, and commits made by <a href="https://github.com/RussellOmar" target="blank">@RussellOmar</a>`
+    options.summary_text = options.summary_text || `Summary of pull requests, issues opened, and commits made by <a href="https://github.com/superblockchainman" target="blank">@RussellOmar</a>`
     options.cache = (options.cache || (24 * 60 * 60)) * 1000
 
     if (options.global_stats === false) {
